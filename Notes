@@ -1,0 +1,28 @@
+
+
+TPDD Protocol:
+--------------------------------------------------------------------------------
+http://bitchin100.com/wiki/index.php?title=Base_Protocol
+
+
+
+
+General:
+--------------------------------------------------------------------------------
+    Disk Images will be way to big to load into RAM, will need to stream from
+      SD card.
+    Is the protocol slow enough that we don't have to cache a sector?
+    Should we store the directory listing in RAM at all times?
+    
+    1280 Byte Sectors
+    
+    2 Sectors per Track
+    
+    40 Tracks (TPDD1)
+    80 Tracks (TPDD2)
+    
+    Max File Size 64kB.
+    Max directory entries, 40 TPDD1 or 80 TPDD2.
+    
+    File names 24 bytes, space padded. Tandy uses 6.2 filenames
+    
