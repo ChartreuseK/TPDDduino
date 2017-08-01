@@ -100,6 +100,9 @@ enum REQCMDS
 /**
  * Calculates checksum based on the number of bytes in request type, 
  * length, and data, but not including the preabmle.
+ * 
+ * This seems like a kinda crappy checksum, are we sure this is correct?
+ * 
  ****/
 inline uint8_t 
 chksum(uint8_t len)
@@ -141,4 +144,6 @@ ret_cond()
 	
 	serial_write(&buf[0], 4);
 }
+
+
 

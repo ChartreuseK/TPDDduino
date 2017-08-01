@@ -2,7 +2,7 @@
 PROJECT	= tpdd
 
 ### Source files and search directory
-CSRC    = main.c fatfs/diskio.c fatfs/mmc_avr_usart.c fatfs/ff.c fatfs/ffunicode_avr.c
+CSRC    = main.c fatfs/diskio.c fatfs/mmc_avr_usart.c fatfs/ff.c 
 ASRC    = 
 VPATH   =
 
